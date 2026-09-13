@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking Supplies & Tools | Ruma's Cake Arcade & Academy</title>
+    <meta name="description" content="Shop high quality baking tools, cake trays, food colouring, fondant tools, silicon mats, and cake decorating accessories at Ruma's Cake Arcade Matara.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container-custom nav-wrapper">
+            <a href="project.html" class="logo">
+                <img src="img/logo2.jpg" alt="Ruma's Cake Arcade Logo">
+                <span>Ruma's Cake Arcade</span>
+            </a>
+            <ul class="navbar">
+                <li><a href="project.html">Home</a></li>
+                <li><a href="project.html#PRICE">Price Chart</a></li>
+                <li><a href="project.html#Product">Products</a></li>
+                <li><a href="products.html" class="active">Other Items</a></li>
+                <li><a href="recipie.html">Recipes</a></li>
+                <li><a href="wedding cakes.html">Wedding Cakes</a></li>
+                <li><a href="project.html#About">About</a></li>
+                <li><a href="contact me.html">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="tel:0775000333" class="nav-phone-btn">
+                    <i class='bx bxs-phone'></i> 077 500 0333
+                </a>
+                <button class="mobile-toggle" aria-label="Toggle navigation menu">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <nav class="mobile-menu">
+        <a href="project.html">Home</a>
+        <a href="project.html#PRICE">Price Chart</a>
+        <a href="project.html#Product">Products</a>
+        <a href="products.html" class="active">Other Items & Tools</a>
+        <a href="recipie.html">Recipes</a>
+        <a href="wedding cakes.html">Wedding Cakes</a>
+        <a href="project.html#About">About</a>
+        <a href="contact me.html">Contact & Order</a>
+    </nav>
+
+    <!-- Hero Header -->
+    <section class="hero-wrapper" style="padding-top: calc(var(--header-height) + 2rem); padding-bottom: 3rem;">
+        <div class="container-custom" style="text-align: center;">
+            <div class="hero-badge" style="margin: 0 auto 1rem;">
+                <i class='bx bxs-wrench'></i> Professional Baking Equipment
+            </div>
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">Baking Tools & Accessories</h1>
+            <p style="margin: 0 auto; max-width: 600px; color: rgba(255,255,255,0.8);">
+                Everything you need for perfect baking — premium cake trays, decorating nozzles, tools, packaging & essential baking supplies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Catalog Section -->
+    <section class="Product" id="Product">
+        <div class="container-custom">
+            <!-- Search & Filter Toolbar -->
+            <div class="filter-toolbar">
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <input type="text" class="search-input" placeholder="Search tools, molds, trays, papers...">
+                </div>
+                <div class="filter-categories">
+                    <button class="filter-chip active" data-category="all">All Tools</button>
+                    <button class="filter-chip" data-category="tools">Decorating & Tools</button>
+                    <button class="filter-chip" data-category="pans">Pans & Trays</button>
+                    <button class="filter-chip" data-category="supplies">Paper & Foil</button>
+                </div>
+            </div>
+
+            <!-- Product Cards Grid -->
+            <div class="product-grid">
+                <!-- Item 1 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/Alphabet.PNG" alt="Alphabet Mold">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Alphabet Mold Set</h3>
+                        <p class="card-desc">Silicone alphabet cutters for fondant lettering and cake decoration.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.450.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="product-card" data-category="supplies">
+                    <div class="card-img-wrapper">
+                        <img src="img/aluminium foil.jpg" alt="Aluminium Foil">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Aluminium Foil</h3>
+                        <p class="card-desc">Heavy duty baking foil roll for oven wrapping and heat distribution.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.1050.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="product-card" data-category="supplies">
+                    <div class="card-img-wrapper">
+                        <img src="img/Backing paper.jpg" alt="Baking Paper Roll">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Baking Paper</h3>
+                        <p class="card-desc">Non-stick parchment baking paper roll for cake pan lining.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.1038.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="product-card" data-category="supplies">
+                    <div class="card-img-wrapper">
+                        <img src="img/cake board.jpg" alt="Cake Board Base">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cake Board</h3>
+                        <p class="card-desc">Sturdy silver metallic cake base board for presentation & transport.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.280.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/cake cutter.jpg" alt="Cake Cutter Tool">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cake Cutter</h3>
+                        <p class="card-desc">Adjustable wire cake slicer for clean, even layer cutting.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.430.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/cake scraper.jpg" alt="Cake Scraper Comb">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cake Scraper</h3>
+                        <p class="card-desc">Acrylic comb scraper for ultra-smooth buttercream edges.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.520.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="product-card" data-category="pans">
+                    <div class="card-img-wrapper">
+                        <img src="img/cake tray round.jpg" alt="Round Cake Pan">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cake Tray (Round)</h3>
+                        <p class="card-desc">Durable aluminum round cake baking tin pan.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.630.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="product-card" data-category="pans">
+                    <div class="card-img-wrapper">
+                        <img src="img/cooling rack.jpg" alt="Cake Cooling Rack">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cooling Rack</h3>
+                        <p class="card-desc">Stainless steel wire cooling grid for freshly baked cakes and cookies.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.850.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="product-card" data-category="supplies">
+                    <div class="card-img-wrapper">
+                        <img src="img/cupcake liners.png" alt="Cupcake Paper Liners">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cup Cake Liners</h3>
+                        <p class="card-desc">Food-grade patterned paper cups for muffin & cupcake baking.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.200.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 10 -->
+                <div class="product-card" data-category="pans">
+                    <div class="card-img-wrapper">
+                        <img src="img/cupcake tray.jpg" alt="Muffin Cupcake Tray">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Cup Cake Tray</h3>
+                        <p class="card-desc">Non-stick multi-cup muffin and cupcake baking pan.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.580.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 11 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/electronic kichen scale.png" alt="Electronic Scale">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Electronic Kitchen Scale</h3>
+                        <p class="card-desc">Digital precision measuring scale for exact ingredient weight.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.1400.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 12 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/food colouring.PNG" alt="Baking Food Coloring">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Food Colouring</h3>
+                        <p class="card-desc">High concentrated gel food dye for buttercream, icing & fondant.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.440.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 13 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/fondant tool.jpg" alt="Fondant Tool Kit">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Fondant Tool Set</h3>
+                        <p class="card-desc">Multi-piece ball, bone, and shaping tool set for cake sculpting.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.385.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 14 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/nosel.jpg" alt="Piping Nozzles">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Piping Nozzle</h3>
+                        <p class="card-desc">Stainless steel piping tip for stars, roses, and flower piping.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.300.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 15 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/oven gloves.jpg" alt="Oven Heat Gloves">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Oven Gloves</h3>
+                        <p class="card-desc">Heat resistant padded silicone baking mitts for safe handling.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.1200.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 16 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/piping bag.jpg" alt="Pastry Piping Bag">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Piping Bag</h3>
+                        <p class="card-desc">Disposable pastry piping bag for decorating cupcakes & cakes.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.20.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 17 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/rolling pin.jpg" alt="Fondant Rolling Pin">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Rolling Pin</h3>
+                        <p class="card-desc">Smooth non-stick roller pin for pastry dough and fondant.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.520.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 18 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/silicon mat.PNG" alt="Silicone Pastry Mat">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Silicon Mat</h3>
+                        <p class="card-desc">Non-stick heat resistant silicone mat with measurement circles.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.200.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 19 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/spatula.jpg" alt="Silicone Spatula">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Spatula</h3>
+                        <p class="card-desc">Flexible silicone icing spatula for mixing and smoothing batter.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.390.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 20 -->
+                <div class="product-card" data-category="tools">
+                    <div class="card-img-wrapper">
+                        <img src="img/Turntable stand.jpg" alt="Cake Turntable Stand">
+                    </div>
+                    <div class="card-body">
+                        <h3 class="card-title">Turn Table Stand</h3>
+                        <p class="card-desc">360-degree smooth revolving cake decorating turntable stand.</p>
+                        <div class="card-footer">
+                            <span class="card-price">Rs.2100.00</span>
+                            <a href="contact me.html" class="btn btn-primary btn-sm">
+                                <i class='bx bxs-cart-add'></i> BUY NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container-custom">
+            <div class="footer-grid">
+                <div class="footer-box">
+                    <h3>Ruma's Cake Arcade & Academy</h3>
+                    <p>Creating unforgettable sweet moments in Matara since 2020. Custom cakes, cupcakes, brownies & professional baking academy.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1B4ZNyen6u/" target="_blank" class="social-btn" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="social-btn" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.tiktok.com/@rumas_wedage?_t=ZS-8tdlGABPhkT&_r=1" target="_blank" class="social-btn" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="project.html">Home</a>
+                        <a href="products.html">Other Items & Tools</a>
+                        <a href="recipie.html">Baking Recipes</a>
+                        <a href="wedding cakes.html">Wedding Gallery</a>
+                        <a href="contact me.html">Contact & Order</a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Guide & Support</h3>
+                    <div class="footer-links">
+                        <a href="project.html#PRICE">Price Chart</a>
+                        <a href="project.html#Product">Featured Products</a>
+                        <a href="project.html#About">About Academy</a>
+                        <a href="contact me.html">Order FAQs</a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-phone-call'></i>
+                            <span>0775000333 / 0705000333</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-map'></i>
+                            <span>Matara, Sri Lanka</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-direction-right'></i>
+                            <a href="https://maps.app.goo.gl/7J85oqhUGjkLyLDP8" target="_blank" style="color: var(--primary-gold);">View on Google Maps</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-envelope'></i>
+                            <span>rumascakearcade@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ruma's Cake Arcade & Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

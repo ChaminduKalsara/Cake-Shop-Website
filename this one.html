@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruma's Cake Arcade & Academy | All-In-One Showcase</title>
+    <meta name="description" content="All-in-one menu, products, baking recipes, and contact showcase for Ruma's Cake Arcade & Academy in Matara.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="container-custom nav-wrapper">
+            <a href="project.html" class="logo">
+                <img src="img/logo2.jpg" alt="Ruma's Cake Arcade Logo">
+                <span>Ruma's Cake Arcade</span>
+            </a>
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Product">Products</a></li>
+                <li><a href="#Recipe">Recipes</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="contact me.html">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <a href="tel:0775000333" class="nav-phone-btn">
+                    <i class='bx bxs-phone'></i> 077 500 0333
+                </a>
+                <button class="mobile-toggle" aria-label="Toggle navigation menu">
+                    <i class='bx bx-menu'></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Navigation -->
+    <nav class="mobile-menu">
+        <a href="#home">Home</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Product">Products</a>
+        <a href="#Recipe">Recipes</a>
+        <a href="#About">About</a>
+        <a href="contact me.html">Contact & Order</a>
+    </nav>
+
+    <!-- Hero Banner & Slider Section -->
+    <section class="hero-wrapper" id="home">
+        <div class="container-custom hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class='bx bxs-award'></i> Matara's Premier Cake Arcade & Academy
+                </div>
+                <h1>Crafting Sweet Memories for Every Celebration</h1>
+                <p>Handcrafted custom cakes, gourmet cupcakes, brownies, and professional baking academy classes. Freshly baked daily with premium ingredients.</p>
+                <div class="hero-buttons">
+                    <a href="#Product" class="btn btn-primary">
+                        <i class='bx bxs-cake'></i> Explore Cakes
+                    </a>
+                    <a href="contact me.html" class="btn btn-outline">
+                        <i class='bx bxs-phone-call'></i> Order Now
+                    </a>
+                </div>
+            </div>
+            <div class="hero-slider-box">
+                <div class="hero-slider-track">
+                    <div class="hero-slide"><img src="img/picture1.jpg" alt="Cake Showcase 1"></div>
+                    <div class="hero-slide"><img src="img/picture2.jpg" alt="Cake Showcase 2"></div>
+                    <div class="hero-slide"><img src="img/picture3.jpg" alt="Cake Showcase 3"></div>
+                    <div class="hero-slide"><img src="img/picture4.jpg" alt="Cake Showcase 4"></div>
+                    <div class="hero-slide"><img src="img/picture5.jpg" alt="Cake Showcase 5"></div>
+                    <div class="hero-slide"><img src="img/picture6.jpg" alt="Cake Showcase 6"></div>
+                    <div class="hero-slide"><img src="img/picture7.jpg" alt="Cake Showcase 7"></div>
+                    <div class="hero-slide"><img src="img/picture8.jpg" alt="Cake Showcase 8"></div>
+                    <div class="hero-slide"><img src="img/picture9.jpg" alt="Cake Showcase 9"></div>
+                </div>
+                <div class="hero-slider-controls">
+                    <button class="slider-btn slider-prev" aria-label="Previous Slide"><i class='bx bx-chevron-left'></i></button>
+                    <button class="slider-btn slider-next" aria-label="Next Slide"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Chart Section -->
+    <section class="PRICE" id="Menu">
+        <div class="container-custom">
+            <div class="section-header">
+                <span class="subtitle">Our Pricing</span>
+                <h2>OUR MENU & PRICE CHART</h2>
+            </div>
+            <div class="price-showcase-card">
+                <img src="img/menu.jpg" alt="Ruma's Cake Menu" class="price-chart-img zoomable">
+                <p class="text-muted" style="margin-top: 1rem; font-size: 0.9rem;">
+                    <i class='bx bx-zoom-in'></i> Click menu image to zoom preview
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Catalog Section -->
+    <section class="Product" id="Product">
+        <div class="container-custom">
+            <div class="section-header">
+                <span class="subtitle">Complete Collection</span>
+                <h2>Products & Baking Supplies</h2>
+            </div>
+
+            <div class="filter-toolbar">
+                <div class="search-box">
+                    <i class='bx bx-search'></i>
+                    <input type="text" class="search-input" placeholder="Search products, tools, accessories...">
+                </div>
+                <div class="filter-categories">
+                    <button class="filter-chip active" data-category="all">All</button>
+                    <button class="filter-chip" data-category="tools">Tools & Supplies</button>
+                </div>
+            </div>
+
+            <div class="product-grid">
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/Alphabet.PNG" alt="Alphabet"></div><div class="card-body"><h3 class="card-title">Alphabet Mold Set</h3><div class="card-footer"><span class="card-price">Rs.450.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/aluminium foil.jpg" alt="Aluminium Foil"></div><div class="card-body"><h3 class="card-title">Aluminium Foil</h3><div class="card-footer"><span class="card-price">Rs.1050.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/Backing paper.jpg" alt="Baking Paper"></div><div class="card-body"><h3 class="card-title">Backing Paper</h3><div class="card-footer"><span class="card-price">Rs.1038.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cake board.jpg" alt="Cake Board"></div><div class="card-body"><h3 class="card-title">Cake Board</h3><div class="card-footer"><span class="card-price">Rs.280.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cake cutter.jpg" alt="Cake Cutter"></div><div class="card-body"><h3 class="card-title">Cake Cutter</h3><div class="card-footer"><span class="card-price">Rs.430.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cake scraper.jpg" alt="Cake Scraper"></div><div class="card-body"><h3 class="card-title">Cake Scraper</h3><div class="card-footer"><span class="card-price">Rs.520.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cake tray round.jpg" alt="Cake Tray Round"></div><div class="card-body"><h3 class="card-title">Cake Tray (Round)</h3><div class="card-footer"><span class="card-price">Rs.630.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cooling rack.jpg" alt="Cooling Rack"></div><div class="card-body"><h3 class="card-title">Cooling Rack</h3><div class="card-footer"><span class="card-price">Rs.850.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cupcake liners.png" alt="Cupcake Liners"></div><div class="card-body"><h3 class="card-title">Cup Cake Liners</h3><div class="card-footer"><span class="card-price">Rs.200.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/cupcake tray.jpg" alt="Cupcake Tray"></div><div class="card-body"><h3 class="card-title">Cup Cake Tray</h3><div class="card-footer"><span class="card-price">Rs.580.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/electronic kichen scale.png" alt="Scale"></div><div class="card-body"><h3 class="card-title">Electronic Kitchen Scale</h3><div class="card-footer"><span class="card-price">Rs.1400.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/food colouring.PNG" alt="Food Colouring"></div><div class="card-body"><h3 class="card-title">Food Colouring</h3><div class="card-footer"><span class="card-price">Rs.440.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/fondant tool.jpg" alt="Fondant Tool"></div><div class="card-body"><h3 class="card-title">Fondant Tool Set</h3><div class="card-footer"><span class="card-price">Rs.385.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/nosel.jpg" alt="Nozzle"></div><div class="card-body"><h3 class="card-title">Piping Nozzle</h3><div class="card-footer"><span class="card-price">Rs.300.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/oven gloves.jpg" alt="Oven Gloves"></div><div class="card-body"><h3 class="card-title">Oven Gloves</h3><div class="card-footer"><span class="card-price">Rs.1200.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/piping bag.jpg" alt="Piping Bag"></div><div class="card-body"><h3 class="card-title">Piping Bag</h3><div class="card-footer"><span class="card-price">Rs.20.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/rolling pin.jpg" alt="Rolling Pin"></div><div class="card-body"><h3 class="card-title">Rolling Pin</h3><div class="card-footer"><span class="card-price">Rs.520.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/silicon mat.PNG" alt="Silicon Mat"></div><div class="card-body"><h3 class="card-title">Silicon Mat</h3><div class="card-footer"><span class="card-price">Rs.200.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/spatula.jpg" alt="Spatula"></div><div class="card-body"><h3 class="card-title">Spatula</h3><div class="card-footer"><span class="card-price">Rs.390.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+                <div class="product-card" data-category="tools"><div class="card-img-wrapper"><img src="img/Turntable stand.jpg" alt="Turntable"></div><div class="card-body"><h3 class="card-title">Turn Table Stand</h3><div class="card-footer"><span class="card-price">Rs.2100.00</span><a href="contact me.html" class="btn btn-primary btn-sm"><i class='bx bxs-cart-add'></i> BUY NOW</a></div></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipes Section -->
+    <section class="Recipe" id="Recipe">
+        <div class="container-custom">
+            <div class="section-header">
+                <span class="subtitle">Baking Academy</span>
+                <h2>Featured Recipes</h2>
+            </div>
+            <div class="recipe-grid">
+                <div class="recipe-card">
+                    <div class="recipe-header-img"><img src="img/chocalate.png" alt="Chocolate Cake"></div>
+                    <div class="recipe-body">
+                        <h3 class="recipe-title">Chocolate Cake</h3>
+                        <p class="instruction-text">Whisk flour, cocoa, sugar, baking powder & soda. Add eggs, milk & oil. Carefully stir in boiling water and bake at 350°F for 30-35 mins.</p>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-header-img"><img src="img/buttercake.png" alt="Butter Cake"></div>
+                    <div class="recipe-body">
+                        <h3 class="recipe-title">Butter Cake</h3>
+                        <p class="instruction-text">Cream butter, sugar, and oil. Add eggs one by one. Fold in flour & buttermilk. Bake at 150°C for 1 hour.</p>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-header-img"><img src="img/brownies.jpg" alt="Brownies"></div>
+                    <div class="recipe-body">
+                        <h3 class="recipe-title">Brownies</h3>
+                        <p class="instruction-text">Melt butter, stir in sugar, eggs, vanilla, cocoa & flour. Bake at 350°F for 25-30 mins. Top with honey cocoa frosting.</p>
+                    </div>
+                </div>
+                <div class="recipe-card">
+                    <div class="recipe-header-img"><img src="img/marble cake.jpg" alt="Marble Cake"></div>
+                    <div class="recipe-body">
+                        <h3 class="recipe-title">Marble Cake</h3>
+                        <p class="instruction-text">Mix vanilla batter. Reserve 3/4 cup and mix with cocoa. Swirl cocoa batter into vanilla batter and bake for 30-35 mins.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="About" id="About">
+        <div class="container-custom">
+            <div class="section-header">
+                <span class="subtitle">Our Story</span>
+                <h2>About Ruma's Cake Arcade & Academy</h2>
+            </div>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto; font-size: 1.1rem; color: var(--text-muted); line-height: 1.8;">
+                Started in 2020 in Matara, Sri Lanka. Specializing in bespoke celebration cakes, cupcakes, dessert catering, and professional baking courses.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container-custom">
+            <div class="footer-grid">
+                <div class="footer-box">
+                    <h3>Ruma's Cake Arcade & Academy</h3>
+                    <p>Creating unforgettable sweet moments in Matara since 2020. Custom cakes, cupcakes, brownies & professional baking academy.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1B4ZNyen6u/" target="_blank" class="social-btn" aria-label="Facebook"><i class='bx bxl-facebook'></i></a>
+                        <a href="#" class="social-btn" aria-label="Instagram"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://www.tiktok.com/@rumas_wedage?_t=ZS-8tdlGABPhkT&_r=1" target="_blank" class="social-btn" aria-label="TikTok"><i class='bx bxl-tiktok'></i></a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="project.html">Home</a>
+                        <a href="products.html">Other Items & Tools</a>
+                        <a href="recipie.html">Baking Recipes</a>
+                        <a href="wedding cakes.html">Wedding Gallery</a>
+                        <a href="contact me.html">Contact & Order</a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Guide & Support</h3>
+                    <div class="footer-links">
+                        <a href="#PRICE">Price Chart</a>
+                        <a href="#Product">Featured Products</a>
+                        <a href="#About">About Academy</a>
+                        <a href="contact me.html">Order FAQs</a>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h3>Contact Us</h3>
+                    <div class="footer-contact-list">
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-phone-call'></i>
+                            <span>0775000333 / 0705000333</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-map'></i>
+                            <span>Matara, Sri Lanka</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-direction-right'></i>
+                            <a href="https://maps.app.goo.gl/7J85oqhUGjkLyLDP8" target="_blank" style="color: var(--primary-gold);">View on Google Maps</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class='bx bxs-envelope'></i>
+                            <span>rumascakearcade@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Ruma's Cake Arcade & Academy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
